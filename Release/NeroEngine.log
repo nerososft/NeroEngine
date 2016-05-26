@@ -1,0 +1,34 @@
+﻿生成启动时间为 2016/5/25 18:50:46。
+     1>项目“F:\game project opengl\Nengine\NeroEngine\NeroEngine.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         F:\visualstudio2013\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /FR"Release\\" /Gd /TP /analyze- /errorReport:prompt SpriteFont.cpp
+         SpriteFont.cpp
+       Lib:
+         F:\visualstudio2013\VC\bin\Lib.exe /OUT:"F:\game project opengl\Nengine\Release\NeroEngine.lib" SDL2.lib SDL2main.lib opengl32.lib glew32.lib SDL2_mixer.lib SDL2_ttf.lib /NOLOGO /LTCG Release\AudioEngine.obj
+         Release\Camera2D.obj
+         Release\Errors.obj
+         Release\GLSLProgram.obj
+         Release\ImageLoader.obj
+         Release\InputManager.obj
+         Release\IOManager.obj
+         Release\NeroEngine.obj
+         Release\picoPng.obj
+         Release\ResourceManager.obj
+         Release\Sprite.obj
+         Release\SpriteBatch.obj
+         Release\SpriteFont.obj
+         Release\TextureCache.obj
+         Release\Timing.obj
+         Release\Window.obj
+     1>opengl32.lib(OPENGL32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR 已在 SDL2.lib(SDL2.dll) 中定义；已忽略第二个定义
+     1>glew32.lib(glew32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR 已在 SDL2.lib(SDL2.dll) 中定义；已忽略第二个定义
+     1>SDL2_mixer.lib(SDL2_mixer.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR 已在 SDL2.lib(SDL2.dll) 中定义；已忽略第二个定义
+     1>SDL2_ttf.lib(SDL2_ttf.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR 已在 SDL2.lib(SDL2.dll) 中定义；已忽略第二个定义
+         NeroEngine.vcxproj -> F:\game project opengl\Nengine\Release\NeroEngine.lib
+       BscMake:
+         F:\visualstudio2013\VC\bin\bscmake.exe /nologo /o"F:\game project opengl\Nengine\Release\NeroEngine.bsc" /n Release\AudioEngine.sbr Release\Camera2D.sbr Release\Errors.sbr Release\GLSLProgram.sbr Release\ImageLoader.sbr Release\InputManager.sbr Release\IOManager.sbr Release\NeroEngine.sbr Release\picoPng.sbr Release\ResourceManager.sbr Release\Sprite.sbr Release\SpriteBatch.sbr Release\SpriteFont.sbr Release\TextureCache.sbr Release\Timing.sbr Release\Window.sbr
+     1>已完成生成项目“F:\game project opengl\Nengine\NeroEngine\NeroEngine.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:07.27

@@ -1,0 +1,61 @@
+﻿生成启动时间为 2016/5/25 13:24:36。
+     1>项目“F:\game project opengl\Nengine\NeroEngine\NeroEngine.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         F:\visualstudio2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt AudioEngine.cpp Camera2D.cpp Errors.cpp GLSLProgram.cpp ImageLoader.cpp InputManager.cpp IOManager.cpp NeroEngine.cpp picoPng.cpp ResourceManager.cpp Sprite.cpp SpriteBatch.cpp SpriteFont.cpp TextureCache.cpp Timing.cpp Window.cpp
+         Window.cpp
+         Timing.cpp
+     1>f:\game project opengl\nengine\neroengine\timing.cpp(26): warning C4244: “初始化”: 从“Uint32”转换到“float”，可能丢失数据
+     1>f:\game project opengl\nengine\neroengine\timing.cpp(29): warning C4244: “参数”: 从“float”转换到“Uint32”，可能丢失数据
+     1>f:\game project opengl\nengine\neroengine\timing.cpp(40): warning C4244: “初始化”: 从“Uint32”转换到“float”，可能丢失数据
+     1>f:\game project opengl\nengine\neroengine\timing.cpp(42): warning C4244: “=”: 从“Uint32”转换到“float”，可能丢失数据
+         TextureCache.cpp
+         SpriteFont.cpp
+         SpriteBatch.cpp
+     1>f:\game project opengl\nengine\neroengine\spritebatch.cpp(24): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\game project opengl\nengine\neroengine\spritebatch.cpp(39): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\game project opengl\nengine\neroengine\spritebatch.cpp(64): warning C4018: “<”: 有符号/无符号不匹配
+         Sprite.cpp
+         ResourceManager.cpp
+         picoPng.cpp
+         NeroEngine.cpp
+         IOManager.cpp
+     1>f:\game project opengl\nengine\neroengine\iomanager.cpp(12): warning C4244: “初始化”: 从“std::streamoff”转换到“int”，可能丢失数据
+     1>f:\game project opengl\nengine\neroengine\iomanager.cpp(14): warning C4244: “-=”: 从“std::streamoff”转换到“int”，可能丢失数据
+         InputManager.cpp
+         ImageLoader.cpp
+         GLSLProgram.cpp
+         Errors.cpp
+         Camera2D.cpp
+         AudioEngine.cpp
+         正在生成代码...
+       Lib:
+         F:\visualstudio2013\VC\bin\Lib.exe /OUT:"F:\game project opengl\Nengine\Debug\NeroEngine.lib" SDL2.lib SDL2main.lib opengl32.lib glew32.lib SDL2_mixer.lib SDL2_ttf.lib /NOLOGO Debug\AudioEngine.obj
+         Debug\Camera2D.obj
+         Debug\Errors.obj
+         Debug\GLSLProgram.obj
+         Debug\ImageLoader.obj
+         Debug\InputManager.obj
+         Debug\IOManager.obj
+         Debug\NeroEngine.obj
+         Debug\picoPng.obj
+         Debug\ResourceManager.obj
+         Debug\Sprite.obj
+         Debug\SpriteBatch.obj
+         Debug\SpriteFont.obj
+         Debug\TextureCache.obj
+         Debug\Timing.obj
+         Debug\Window.obj
+     1>opengl32.lib(OPENGL32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR 已在 SDL2.lib(SDL2.dll) 中定义；已忽略第二个定义
+     1>opengl32.lib(OPENGL32.dll) : warning LNK4221: 此对象文件未定义任何之前未定义的公共符号，因此任何耗用此库的链接操作都不会使用此文件
+     1>glew32.lib(glew32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR 已在 SDL2.lib(SDL2.dll) 中定义；已忽略第二个定义
+     1>glew32.lib(glew32.dll) : warning LNK4221: 此对象文件未定义任何之前未定义的公共符号，因此任何耗用此库的链接操作都不会使用此文件
+     1>SDL2_mixer.lib(SDL2_mixer.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR 已在 SDL2.lib(SDL2.dll) 中定义；已忽略第二个定义
+     1>SDL2_mixer.lib(SDL2_mixer.dll) : warning LNK4221: 此对象文件未定义任何之前未定义的公共符号，因此任何耗用此库的链接操作都不会使用此文件
+     1>SDL2_ttf.lib(SDL2_ttf.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR 已在 SDL2.lib(SDL2.dll) 中定义；已忽略第二个定义
+     1>SDL2_ttf.lib(SDL2_ttf.dll) : warning LNK4221: 此对象文件未定义任何之前未定义的公共符号，因此任何耗用此库的链接操作都不会使用此文件
+         NeroEngine.vcxproj -> F:\game project opengl\Nengine\Debug\NeroEngine.lib
+     1>已完成生成项目“F:\game project opengl\Nengine\NeroEngine\NeroEngine.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:07.04
