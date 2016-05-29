@@ -16,6 +16,7 @@ namespace NeroEngine{
 	}
 	void Music::pause(){
 		Mix_PauseMusic();
+
 	}
 
 	void Music::stop(){
