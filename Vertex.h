@@ -1,6 +1,9 @@
 #pragma once
 #include <GL/glew.h>
 namespace NeroEngine{
+
+	
+		
 	struct Position{
 		float x;
 		float y;

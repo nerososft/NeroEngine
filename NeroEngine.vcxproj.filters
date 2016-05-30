@@ -69,6 +69,9 @@
     <ClCompile Include="ParticleBatch2D.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Box2D.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Errors.h">
@@ -129,6 +132,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="ParticleBatch2D.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Box2D.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
