@@ -1,9 +1,7 @@
 #include "ParticleBatch2D.h"
 
 namespace NeroEngine{
-	void Particle2D::update(float deltaTime){
-		_position += _velocity*deltaTime;
-	}
+	
 	ParticleBatch2D::ParticleBatch2D()
 	{
 	}
@@ -14,17 +12,19 @@ namespace NeroEngine{
 		delete[] _particles;
 
 	}
-	void ParticleBatch2D::init(int maxParticlesNum, float decayRate, GLTexture texture){
+	
+	void ParticleBatch2D::init(int maxParticlesNum, float decayRate, GLTexture texture, std::function<void(Particle2D&, float)> funcUpdate /*= defaultUpdateFunc*/){
 		_maxParticlesNum = maxParticlesNum;
 		_particles = new Particle2D[_maxParticlesNum];
 		_decayRate = decayRate;
 		_texture = texture;
+		_funcUpdate = funcUpdate;
 
 	}
 	void ParticleBatch2D::update(float deltaTime){
 		for (int i = 0; i < _maxParticlesNum;i++){
 			if (_particles[i]._life>0){
-				_particles[i].update(deltaTime);
+				_funcUpdate(_particles[i], deltaTime);
 				_particles[i]._life -= _decayRate*deltaTime;
 			}
 		}

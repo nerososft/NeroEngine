@@ -3,27 +3,32 @@
 #include "Vertex.h"
 #include "SpriteBatch.h"
 #include "GLTexture.h"
+#include <functional>
 namespace NeroEngine{
 	
 	class Particle2D{
 	public:
-		friend class ParticleBatch2D;
-
-		void update(float deltaTime);
-	private:
 		glm::vec2 _position = glm::vec2(0.0f);
 		glm::vec2 _velocity = glm::vec2(0.0f);
 		Color _color;
 		float _life;
 		float _width;
 	};
+
+	inline void defaultUpdateFunc(Particle2D& particle, float deltaTime){
+		particle._position += particle._velocity*deltaTime;
+	}
+
 	class ParticleBatch2D
 	{
 	public:
 		friend class Particle2D;
 		ParticleBatch2D();
 		~ParticleBatch2D();
-		void init(int maxParticlesNum,float decayRate,GLTexture texture);
+		void init(int maxParticlesNum,
+			float decayRate,
+			GLTexture texture,
+			std::function<void(Particle2D&, float)> funcUpdate = defaultUpdateFunc);
 
 
 		void update(float deltaTime);
@@ -40,6 +45,6 @@ namespace NeroEngine{
 		int _maxParticlesNum = 0;
 		int _lastFreeParticles = 0;
 		GLTexture _texture;
-
+		std::function<void(Particle2D&, float)> _funcUpdate;
 	};
 }

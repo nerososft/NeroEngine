@@ -1,7 +1,8 @@
-﻿生成启动时间为 5/29/2016 5:25:18 PM。
+﻿生成启动时间为 5/30/2016 2:08:06 PM。
      1>项目“F:\game project opengl\Nengine\NeroEngine\NeroEngine.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         F:\visualstudio2013\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /FR"Release\\" /Gd /TP /analyze- /errorReport:prompt ParticleEngine2D.cpp
+         F:\visualstudio2013\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /FR"Release\\" /Gd /TP /analyze- /errorReport:prompt ParticleBatch2D.cpp ParticleEngine2D.cpp
+         ParticleBatch2D.cpp
          ParticleEngine2D.cpp
        Lib:
          F:\visualstudio2013\VC\bin\Lib.exe /OUT:"F:\game project opengl\Nengine\Release\NeroEngine.lib" SDL2.lib SDL2main.lib opengl32.lib glew32.lib SDL2_mixer.lib SDL2_ttf.lib /NOLOGO /LTCG Release\AudioEngine.obj
@@ -33,4 +34,4 @@
 
 生成成功。
 
-已用时间 00:00:04.46
+已用时间 00:00:08.49
