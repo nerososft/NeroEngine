@@ -1,22 +1,30 @@
-﻿生成启动时间为 5/30/2016 6:10:49 PM。
+﻿生成启动时间为 5/31/2016 7:50:25 PM。
      1>项目“F:\game project opengl\Nengine\NeroEngine\NeroEngine.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         F:\visualstudio2013\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /FR"Release\\" /Gd /TP /analyze- /errorReport:prompt Box2D.cpp
-         Box2D.cpp
+         F:\visualstudio2013\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /FR"Release\\" /Gd /TP /analyze- /errorReport:prompt IGameScreen.cpp IMainGame.cpp ScreenList.cpp
+         IGameScreen.cpp
+         IMainGame.cpp
+     1>IMainGame.cpp(77): warning C4244: “参数”: 从“Sint32”转换到“float”，可能丢失数据
+         ScreenList.cpp
+     1>ScreenList.cpp(42): warning C4018: “<”: 有符号/无符号不匹配
        Lib:
          F:\visualstudio2013\VC\bin\Lib.exe /OUT:"F:\game project opengl\Nengine\Release\NeroEngine.lib" SDL2.lib SDL2main.lib opengl32.lib glew32.lib SDL2_mixer.lib SDL2_ttf.lib Box2D.lib /NOLOGO /LTCG Release\AudioEngine.obj
          Release\Box2D.obj
          Release\Camera2D.obj
          Release\Errors.obj
          Release\GLSLProgram.obj
+         Release\IGameScreen.obj
          Release\ImageLoader.obj
          Release\InputManager.obj
          Release\IOManager.obj
+         Release\IMainGame.obj
          Release\NeroEngine.obj
+         Release\Network.obj
          Release\ParticleBatch2D.obj
          Release\ParticleEngine2D.obj
          Release\picoPng.obj
          Release\ResourceManager.obj
+         Release\ScreenList.obj
          Release\Sprite.obj
          Release\SpriteBatch.obj
          Release\SpriteFont.obj
@@ -29,9 +37,9 @@
      1>SDL2_ttf.lib(SDL2_ttf.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR 已在 SDL2.lib(SDL2.dll) 中定义；已忽略第二个定义
          NeroEngine.vcxproj -> F:\game project opengl\Nengine\Release\NeroEngine.lib
        BscMake:
-         F:\visualstudio2013\VC\bin\bscmake.exe /nologo /o"F:\game project opengl\Nengine\Release\NeroEngine.bsc" /n Release\AudioEngine.sbr Release\Box2D.sbr Release\Camera2D.sbr Release\Errors.sbr Release\GLSLProgram.sbr Release\ImageLoader.sbr Release\InputManager.sbr Release\IOManager.sbr Release\NeroEngine.sbr Release\ParticleBatch2D.sbr Release\ParticleEngine2D.sbr Release\picoPng.sbr Release\ResourceManager.sbr Release\Sprite.sbr Release\SpriteBatch.sbr Release\SpriteFont.sbr Release\TextureCache.sbr Release\Timing.sbr Release\Window.sbr
+         F:\visualstudio2013\VC\bin\bscmake.exe /nologo /o"F:\game project opengl\Nengine\Release\NeroEngine.bsc" /n Release\AudioEngine.sbr Release\Box2D.sbr Release\Camera2D.sbr Release\Errors.sbr Release\GLSLProgram.sbr Release\IGameScreen.sbr Release\ImageLoader.sbr Release\InputManager.sbr Release\IOManager.sbr Release\IMainGame.sbr Release\NeroEngine.sbr Release\Network.sbr Release\ParticleBatch2D.sbr Release\ParticleEngine2D.sbr Release\picoPng.sbr Release\ResourceManager.sbr Release\ScreenList.sbr Release\Sprite.sbr Release\SpriteBatch.sbr Release\SpriteFont.sbr Release\TextureCache.sbr Release\Timing.sbr Release\Window.sbr
      1>已完成生成项目“F:\game project opengl\Nengine\NeroEngine\NeroEngine.vcxproj”(Build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:06.64
+已用时间 00:00:06.35

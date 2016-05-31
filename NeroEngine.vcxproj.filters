@@ -72,6 +72,18 @@
     <ClCompile Include="Box2D.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Network.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IGameScreen.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IMainGame.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Errors.h">
@@ -135,6 +147,18 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Box2D.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Network.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameScreen.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IMainGame.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

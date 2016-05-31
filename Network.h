@@ -6,6 +6,8 @@ namespace NeroEngine{
 	class Network
 	{
 	public:
+		void init();
+
 		Network();
 		~Network();
 	private:
